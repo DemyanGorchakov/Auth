@@ -14,6 +14,7 @@
 		A5EDAF3C2968C25300CD4C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EDAF3B2968C25300CD4C37 /* Assets.xcassets */; };
 		A5EDAF3F2968C25300CD4C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EDAF3D2968C25300CD4C37 /* LaunchScreen.storyboard */; };
 		A5EDAF472968D69D00CD4C37 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDAF462968D69D00CD4C37 /* SecondViewController.swift */; };
+		A5EDAF4B2969B15600CD4C37 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDAF4A2969B15600CD4C37 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A5EDAF3E2968C25300CD4C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5EDAF402968C25300CD4C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5EDAF462968D69D00CD4C37 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A5EDAF4A2969B15600CD4C37 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A5EDAF342968C24B00CD4C37 /* SceneDelegate.swift */,
 				A5EDAF362968C24B00CD4C37 /* ViewController.swift */,
 				A5EDAF462968D69D00CD4C37 /* SecondViewController.swift */,
+				A5EDAF4A2969B15600CD4C37 /* FirstViewController.swift */,
 				A5EDAF382968C24B00CD4C37 /* Main.storyboard */,
 				A5EDAF3B2968C25300CD4C37 /* Assets.xcassets */,
 				A5EDAF3D2968C25300CD4C37 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EDAF4B2969B15600CD4C37 /* FirstViewController.swift in Sources */,
 				A5EDAF472968D69D00CD4C37 /* SecondViewController.swift in Sources */,
 				A5EDAF372968C24B00CD4C37 /* ViewController.swift in Sources */,
 				A5EDAF332968C24B00CD4C37 /* AppDelegate.swift in Sources */,
