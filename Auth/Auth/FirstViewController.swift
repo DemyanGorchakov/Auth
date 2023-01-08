@@ -26,12 +26,13 @@ class FirstViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
 //                                                                    высота ячейки
-//        tableView.rowHeight = 100
+        tableView.rowHeight = 70
     }
 
 }
 
 extension FirstViewController: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count
     }
@@ -49,6 +50,5 @@ extension FirstViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        
     }
 }
